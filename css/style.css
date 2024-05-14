@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 30, 30);
+
+}
+
+h1{font-size: 3em;}
+h2{font-size: 1.3em;}
+h3{font-size: 1.1em;}
+h4{font-size: 0.9em;}
+h5{font-size: 1.5em;}
+p{font-size: 1em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+/*Seccion de Navbar*/
+.navbar{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgba(30, 30, 30, 30);
+}
+.navbar a {
+    color: white;
+}
+.navbar a:hover{
+    color:blueviolet;
+}
+.dropdown-menu {
+    background-color: rgba(30, 30, 30, 30);
+    margin: 10px;
+}
+.navbar button {
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0,0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+.navbar button:hover,
+.navbar button:focus,
+.navbar button:active 
+    {background-color: blueviolet;}
+
+
+/*Seccion de Cards*/
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px; 
+}
+.card-body {
+    background-color: #f8f9fa;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title {
+    font-size: 1.25rem;
+    color:blueviolet; 
+}
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.botones {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+.botones:hover {
+    background-color: blueviolet;
+}
+/*Seccion de Descripcion*/
+.descripcion{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.descripcion h2{
+    line-height: 1.9;
+}
+.color-acento{ color: blueviolet;}
+
+.entre-pagina{
+    color: white;
+    text-align: justify;
+}
+
+/*Seccion de Entre pagina*/
+.copy-right{
+    margin: 20px;
+    text-align: end;
+    color: white;
+}
+
+.redes-sociales{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.Discord .bi{
+    color: blueviolet;
+}
+.Twitch .bi{
+    color: blueviolet;
+}
+.Twitter .bi{
+    color: rgb(41, 82, 214);
+}
+.redes-sociales ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*Seccion de Noticias usando grid*/
