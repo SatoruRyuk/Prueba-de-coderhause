@@ -5,7 +5,6 @@
 }
 body{
     background-color: rgb(30, 30, 30);
-
 }
 
 h1{font-size: 3em;}
@@ -23,12 +22,11 @@ li{font-size: 1.25em;}
     font-weight: bold;
     background-color: rgba(30, 30, 30, 30);
 }
+
 .navbar a {
     color: white;
 }
-.navbar a:hover{
-    color:blueviolet;
-}
+
 .dropdown-menu {
     background-color: rgba(30, 30, 30, 30);
     margin: 10px;
@@ -53,7 +51,6 @@ li{font-size: 1.25em;}
         height: 5px;
         background: linear-gradient(270deg, #2abdbb 39.17%, #fabb18 49.18%, #f47521 67.12%);
     }
-
 /*Seccion de Cards*/
 .card {
     border: none;
